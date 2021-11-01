@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(8, 22, 130, 1) 70%, rgba(9, 9, 121, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+div {
+    border: 2px solid #ffffff;
+    margin: 20px 20px;
+    background: rgb(238, 174, 202);
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+h1 {
+    font-size: 40px;
+    margin: 20px 20px 0.5px 20px;
+    color: rgba(2, 0, 36, 1);
+}
+
+p {
+    margin: 20px 20px 0.5px 20px;
+    display: inline;
+    color: #000080;
+}
+
+label {
+    display: block;
+    margin: 20px 20px 0.5px 20px;
+    color: #000080;
+    font-size: 20;
+}
+
+input {
+    margin: 0px -15px 5px 20px;
+    border: 3px solid;
+    border-color: rgba(148, 187, 233);
+    color: #000080;
+}
+
+textarea {
+    margin: 0px 20px 5px 20px;
+    border: 3px solid;
+    border-color: rgba(148, 187, 233);
+}
+
+button {
+    display: inline;
+    margin: 20px -15px 5px 20px;
+    color: #000080;
+}
+
+button:hover {
+    cursor: pointer;
+    width: 115px;
+    height: 30px;
+    color: black;
+    background-color: rgb(155, 89, 67);
+    border: 2px solid #000000;
+}
+
+.pass {
+    display: block;
+}

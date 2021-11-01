@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https: //fonts.googleapis.com/css2? família = Nunito: ital, peso @ 0,400; 0,700; 1,400 & display = swap "
+            rel=" stylesheet "
+        />
+
+        <title>Formulário</title>
+    </head>
+
+    <body>
+        <div>
+            <form action="" method="post" enctype="multipart/form-data">
+                <h1>Cadastre-se</h1>
+
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="nome-de-usuario" required />
+
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email-do-usuario"
+                    required
+                />
+
+                <label for="age">Idade</label>
+                <input
+                    type="number"
+                    id="age"
+                    min="12"
+                    name="idade-do-usuario"
+                    max="100"
+                    required
+                    step="1"
+                />
+
+                <label for="birthday">Data de Nascimento</label>
+                <input
+                    type="date"
+                    id="birthday"
+                    name="aniversario-do-usuario"
+                    required
+                />
+
+                <label for="text">Onde você possui conta:</label>
+                <input type="checkbox" id="text" name="instagram" />
+                <p>Instagram</p>
+                <input type="checkbox" id="text" name="facebook" />
+                <p>Facebook</p>
+                <input type="checkbox" id="text" name="youtube" />
+                <p>Youtube</p>
+
+                <label for="gender">Sexo</label>
+                <input
+                    type="radio"
+                    id="gender"
+                    name="genero"
+                    value="masculino"
+                />
+                <p>Masculino</p>
+                <input
+                    type="radio"
+                    id="gender"
+                    name="genero"
+                    value="feminino"
+                />
+                <p>Feminino</p>
+
+                <label for="eyers"></label>
+                <p>Cor dos Olhos</p>
+                <input type="color" id="eyers" name="cor-dos-olhos" />
+
+                <label for="biography">Biografia</label>
+                <textarea
+                    name="biografia"
+                    id="biography"
+                    cols="50"
+                    rows="10"
+                ></textarea>
+
+                <label for="image">Foto do perfil</label>
+                <input
+                    type="file"
+                    accept="image/*"
+                    id="image"
+                    name="foto-do-perfil"
+                />
+
+                <label for="phone">Telefone</label>
+                <input type="tel" name="telefone" id="phone" required />
+
+                <label for="url">Link do perfil do Facebook</label>
+                <input type="url" id="url" name="facebook" />
+
+                <label for="password">Senha</label>
+                <input
+                    class="pass"
+                    type="password"
+                    id="password"
+                    name="senha"
+                    min="6"
+                    max="8"
+                    required
+                />
+
+                <button type="reset" name="resetar-dados">Limpar</button>
+                <button type="submit" name="enviar-dados">Enviar Dados</button>
+            </form>
+        </div>
+    </body>
+</html>
